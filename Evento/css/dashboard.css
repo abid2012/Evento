@@ -1,0 +1,57 @@
+.home-color{
+    background-color: #000000;
+    height: 100vh;
+}
+
+.db-button{
+    background-image: linear-gradient(#6E00FF,#CF25E9);
+    color: rgb(243, 242, 242);
+    width: 180px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.db-button:hover{
+    background-image: linear-gradient(#400093,#760088);
+    color: white;
+    cursor: pointer;
+}
+
+.insert-span{
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+
+.insert-form{
+    width: 98%;
+    margin: auto;
+    background-color: #efefef;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.289), 0px 6px 8px 0px rgba(0, 0, 0, 0.243);
+}
+
+
+.logout{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+.create{
+    border: none;
+}
+
+
+@media screen and (max-width: 992px) {
+    .home-color{
+        height: auto;
+        padding-bottom: 50px;
+    }
+}

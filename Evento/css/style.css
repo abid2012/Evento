@@ -1,0 +1,133 @@
+
+/* Home/Login Page Starts */
+
+/* User */
+
+#em::placeholder{
+    color: red;
+}
+
+#pass::placeholder{
+    color: red;
+}
+
+.back{
+    background-image: linear-gradient(to right, #0061ff,#60efff ); 
+    height: 100vh;
+}
+
+
+.log-div{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 60vh;
+    transition: 1s;
+}
+
+.log-img{
+    background-image: url(../images/event.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.log-form{
+    margin-top: 50px;
+    width: 90%;
+    margin-left: 20px;
+}
+
+.log-failed{
+    color: white;
+    position: fixed;
+    bottom: 0;
+    margin-left: 30%;
+    margin-bottom: 70px;
+}
+
+#fn::placeholder{
+    color: red;
+}
+
+#email::placeholder{
+    color: red;
+}
+
+#passw::placeholder{
+    color: red;
+}
+
+
+
+/* Admin */
+
+.log-img-admin{
+    background-image: url(../images/adminimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#ema::placeholder{
+    color: red;
+}
+
+#passa::placeholder{
+    color: red;
+}
+
+
+/* Home/Login Page Ends */
+
+
+
+
+/* Registration Page Starts */
+
+.reg-div{
+   padding: 5%;
+   width: 50%;
+   margin: auto;
+}
+
+
+/* Registration Page Ends */
+
+
+
+
+
+/* Responsiveness Starts */
+
+@media screen and (max-width: 766px) {
+
+    /* Login Responsive Starts */
+
+   .log-img{
+    display: none;
+   }
+
+   .log-div{
+    margin: auto;
+   }
+
+   .log-img-admin{
+    display: none;
+   }
+
+   /* Login Responsive Ends */
+
+
+
+   /* Register Responsive Starts */
+
+   .reg-div{
+    width: 80%;
+    padding-top: 9%;
+   }
+
+   /* Register Responsive Ends */
+}
+
+
+/* Responsiveness Ends */
