@@ -86,27 +86,6 @@ Select an event from the dropdown menu and click the "Download" button to genera
 4. Dynamic Table Updates
 The event table automatically updates every 5 seconds using AJAX. No need to refresh the page manually.
 
-
-**File Structure**
-
-evento/
-├── control/                  # PHP scripts for backend logic
-│   ├── fetch_events.php      # Fetches events for AJAX updates
-│   ├── action.php            # Handles CRUD operations for Tabledit
-│   └── adminlogout.php       # Handles admin logout
-├── css/                      # CSS files
-│   └── style.css             # Custom styles
-├── images/                   # Image assets
-│   └── red-carpet.png        # Favicon
-├── js/                       # JavaScript files
-│   └── script.js             # Custom scripts
-├── config.php                # Database configuration
-├── database.sql              # Database schema
-├── index.php                 # Main application file
-├── README.md                 # Documentation
-└── .htaccess                 # Apache configuration (if applicable)
-
-
 **Technologies Used**
 
 Frontend:
